@@ -312,42 +312,42 @@
 } */
 
 .fadeInFromRight {
-  animation: fadeInFromRight 600ms ease-out;
+  animation: fadeInFromRight 1500ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToBottom {
-  animation: fadeOutToBottom 4s ease-in;
+  animation: fadeOutToBottom 1500ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromBottom {
-  animation: fadeInFromBottom 600ms ease-out;
+  animation: fadeInFromBottom 1500ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToTop {
-  animation: fadeOutToTop 600ms ease-in;
+  animation: fadeOutToTop 1500ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromTop {
-  animation: fadeInFromTop 600ms ease-out;
+  animation: fadeInFromTop 1500ms ease-out;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToLeft {
-  animation: fadeOutToLeft 600ms ease-in;
+  animation: fadeOutToLeft 1500ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeInFromLeft {
-  animation: fadeInFromLeft 4s ease-out;
+  animation: fadeInFromLeft 1500ms ease-in;
   animation-fill-mode: forwards;
 }
 
 .fadeOutToRight {
-  animation: fadeOutToRight 600ms ease-in;
+  animation: fadeOutToRight 1500ms ease-in;
   animation-fill-mode: forwards;
 }
 
@@ -355,6 +355,10 @@
   0% {
     opacity: 0;
     transform: translate(100%, -50%);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0);
   }
   100% {
     opacity: 1;
@@ -367,45 +371,13 @@
     opacity: 1;
     transform: translateY(0);
   }
-  10% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  20% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  30% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  40% {
-    opacity: 1;
-    transform: translateY(0);
-  }
   50% {
     opacity: 1;
     transform: translateY(0);
   }
-  60% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  80% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  90% {
-    opacity: 1;
-    transform: translateY(0);
-  }
   100% {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 0;
+    transform: translateY(50%);
   }
 }
 
@@ -413,6 +385,10 @@
   0% {
     opacity: 0;
     transform: translate(50%, 50%);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0);
   }
   100% {
     opacity: 1;
@@ -422,6 +398,10 @@
 
 @keyframes fadeOutToTop {
   0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -436,6 +416,10 @@
     opacity: 0;
     transform: translate(-50%, -50%);
   }
+  50% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
   100% {
     opacity: 1;
     transform: translate(0, 0);
@@ -443,6 +427,10 @@
 }
 @keyframes fadeOutToLeft {
   0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  50% {
     opacity: 1;
     transform: translate(0, 0);
   }
@@ -457,39 +445,7 @@
     opacity: 0;
     transform: translate(-50%, 50%);
   }
-  10% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  20% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  30% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  40% {
-    opacity: 1;
-    transform: translate(0);
-  }
   50% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  60% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  70% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  80% {
-    opacity: 1;
-    transform: translate(0);
-  }
-  90% {
     opacity: 1;
     transform: translate(0);
   }
@@ -501,6 +457,10 @@
 
 @keyframes fadeOutToRight {
   0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
     opacity: 1;
     transform: translateX(0);
   }

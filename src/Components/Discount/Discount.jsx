@@ -24,7 +24,7 @@ const Discount = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCounter((prevCounter) => (prevCounter + 1) % Data.length);
-    }, 700);
+    }, 1500);
 
     return () => clearInterval(intervalId); // Clear interval on component unmount
   }, []); // Empty dependency array to run effect only once on mount
