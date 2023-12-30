@@ -27,15 +27,14 @@
   font-weight: 600;
 }
 .touch-img {
-  width: 30%;
-  /* background-color: red; */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .touch-img img {
   object-fit: contain;
-  width: 60%;
+  width: 250px;
 }
 .touch-para {
   width: 60%;
@@ -455,6 +454,9 @@ input::placeholder {
   .touch-container-contained {
     flex-direction: column;
   }
+  .left-touch {
+    gap: 20px;
+  }
   .touch-container {
     height: auto;
   }
@@ -500,6 +502,11 @@ input::placeholder {
     object-fit: contain;
   }
 }
+@media screen and (max-width: 794px) {
+  .touch-para {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 532px) {
   /* .whole-container-sb {
     margin-top: 15px;
@@ -513,17 +520,82 @@ input::placeholder {
     width: 40%;
     text-align: center;
   }
+  .touch-container {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 519px) {
+  .touch-heading h2 {
+    font-size: 26px !important;
+  }
+  .touch-img img {
+    width: 170px;
+    margin-top: -1%;
+  }
+  .touch-para p {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .custom-select select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../../../public/drop.png") no-repeat right 20px center !important;
+    background-position-y: 52% !important;
+    margin-right: 35px !important;
+    background-size: 20px;
+    padding-left: 16px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 470px) {
+  select {
+    font-size: 14px !important;
+  }
+  .custom-select select {
+    background: url("../../../public/drop.png") no-repeat right 20px center !important;
+  }
 }
 @media screen and (max-width: 562px) {
   .title-container1 {
     width: 44%;
   }
 }
-@media screen and (max-width: 511px) {
+@media screen and (max-width: 426px) {
+  .custom-select select {
+    background: url("../../../public/drop.png") no-repeat right 10px center !important;
+
+    background-size: 15px !important;
+  }
+}
+@media screen and (max-width: 396px) {
+  .custom-select select {
+    background: url("../../../public/drop.png") no-repeat right 2px center !important;
+    background-size: 15px !important;
+  }
+}
+@media screen and (max-width: 530px) {
+  .touch-para {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 512px) {
   .title-container1 {
     width: 49%;
   }
+  /* .para-form1 p {
+    font-size: 15px;
+  } */
+  .form-checkbox {
+    margin-bottom: 11%;
+  }
 }
+/* @media screen and (max-width: 446px) {
+  .para-form1 p {
+    font-size: 14px;
+  }
+} */
 @media screen and (max-width: 458px) {
   .title-container1 {
     width: 54%;
@@ -589,6 +661,32 @@ input::placeholder {
   .whole-container-sb {
     width: 85%;
   }
+  /* .form-checkbox {
+    margin-top: 28px !important;
+  } */
+}
+@media screen and (min-width: 476px) and (max-width: 500px) {
+  /* .form-checkbox {
+    margin-top: 28px !important;
+  } */
+  .para-form1 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-checkbox {
+    margin-top: -1% !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .form-checkbox {
+    margin-top: -3% !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .form-checkbox {
+    margin-top: -5% !important;
+  }
 }
 @media screen and (max-width: 443px) {
   .whole-container-sb {
@@ -598,5 +696,15 @@ input::placeholder {
 @media only screen and (max-width: 1293px) {
   .form-checkbox {
     margin-top: 0%;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .para-form1 p {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 339px) {
+  .para-form1 p {
+    font-size: 14px;
   }
 }

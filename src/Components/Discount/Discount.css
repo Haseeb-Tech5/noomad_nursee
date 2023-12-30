@@ -130,6 +130,7 @@
   }
   .left-discount {
     font-size: 30px;
+    /* background-color: red; */
   }
 }
 @media screen and (max-width: 999px) {
@@ -141,14 +142,14 @@
   .back-video {
     /* height: 100%; */
     object-fit: cover;
-    height: 600px;
+    height: 650px;
   }
   .left-discount {
     /* background-color: red; */
     /* height: 600px; */
   }
   .discount-container {
-    height: 600px;
+    height: 650px;
   }
   .discount-container-full {
     justify-content: space-between;
@@ -204,5 +205,27 @@
   .nurse-para2 p {
     font-size: 15px !important;
     line-height: 18px;
+  }
+  .back-video {
+    height: 600px;
+  }
+  .left-discount {
+    /* background-color: red; */
+    /* height: 600px; */
+  }
+  .discount-container {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .back-video {
+    height: 650px;
+  }
+  .left-discount {
+    /* background-color: red; */
+    /* height: 600px; */
+  }
+  .discount-container {
+    height: 650px;
   }
 }

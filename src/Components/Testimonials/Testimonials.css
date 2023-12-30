@@ -191,6 +191,11 @@
     left: 45%;
   }
 }
+@media screen and (max-width: 722px) {
+  .p-para p {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 650px) {
   .testi-heading h2 {
     font-size: 26px;
@@ -207,18 +212,19 @@
     padding: 20px;
   }
   .custom-prev {
-    right: 42%;
+    right: 44%;
   }
   .custom-next {
-    left: 42%;
+    left: 44%;
   }
   .slider-container {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
   }
   .testimonial-container {
-    height: 500px;
+    height: 410px;
+    /* background-color: yellowgreen; */
   }
   .testi-para p {
     font-size: 18px;
@@ -228,7 +234,75 @@
     width: 80%;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 517px) {
+  .testimonial-container {
+    height: 435px;
+    /* background-color: yellowgreen; */
+  }
+  .custom-prev {
+    right: 43%;
+  }
+  .custom-next {
+    left: 43%;
+  }
+}
+@media screen and (max-width: 477px) {
+  .custom-prev {
+    right: 42%;
+  }
+  .custom-next {
+    left: 42%;
+  }
+}
+@media screen and (max-width: 437px) {
+  .testimonial-container {
+    height: 455px;
+    /* background-color: yellowgreen; */
+  }
+  .custom-prev {
+    right: 41%;
+  }
+  .custom-next {
+    left: 41%;
+  }
+}
+@media screen and (max-width: 371px) {
+  .testimonial-container {
+    height: 475px;
+    /* background-color: yellowgreen; */
+  }
+  .custom-prev {
+    right: 40%;
+  }
+  .custom-next {
+    left: 40%;
+  }
+}
+@media screen and (max-width: 337px) {
+  .testimonial-container {
+    height: 495px;
+    /* background-color: yellowgreen; */
+  }
+  .custom-prev {
+    right: 39%;
+  }
+  .custom-next {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 328px) {
+  .testimonial-container {
+    height: 520px;
+    /* background-color: yellowgreen; */
+  }
+  .custom-prev {
+    right: 39%;
+  }
+  .custom-next {
+    left: 39%;
+  }
+}
+/* @media screen and (max-width: 430px) {
   .custom-prev {
     right: 40%;
   }
@@ -240,4 +314,4 @@
   .testimonial-container {
     height: 550px;
   }
-}
+} */

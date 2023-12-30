@@ -57,6 +57,9 @@
     font-size: 35px;
     line-height: 30px;
   }
+  .story-img img {
+    width: 170px;
+  }
 }
 @media only screen and (max-width: 590px) {
   .story-heading h2 {
@@ -69,6 +72,10 @@
   }
   .story-para {
     width: 88%;
+  }
+  .story-img img {
+    width: 140px;
+    margin-top: -1%;
   }
 }
 /* @media screen and (min-width: 320px) and (max-width: 600px) {
