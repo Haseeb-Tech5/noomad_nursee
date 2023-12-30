@@ -1,0 +1,114 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  height: 450px;
+  /* padding-bottom: 20px; */
+  /* background-color: green; */
+}
+.button-contained {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.button-contained button {
+  height: 66px;
+  width: 206px;
+  font-size: 20px;
+  background-color: #ae9c7f;
+  color: #f3f4f6;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.header1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  padding-top: 12%;
+}
+.whole-contained {
+  max-width: 1440px;
+  width: 80%;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #f8f6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.images-contained {
+  display: flex;
+  /* justify-content: end; */
+  align-items: end;
+  position: relative;
+  /* flex-direction: column; */
+  /* height: 200px; */
+  position: absolute;
+  top: -10%;
+}
+.avatar2 {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 1000;
+}
+.avatar1 {
+  position: relative;
+  /* position: absolute; */
+  left: -15%;
+}
+.avatar3 {
+  /* position: absolute; */
+  position: relative;
+  /* position: absolute; */
+  right: -15%;
+}
+@media screen and (max-width: 1340px) {
+  .header1 h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .header1 h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .whole-contained {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .whole-contained {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 790px) {
+  .header1 h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header1 h2 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .button-contained {
+    width: 80%;
+    height: 66px;
+  }
+}

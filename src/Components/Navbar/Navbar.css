@@ -1,0 +1,27 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.navbar-nav {
+  justify-content: space-evenly;
+  width: 45%;
+}
+.responsive-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  font-size: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .eee {
+    margin-right: 4%;
+  }
+  .sss {
+    margin-left: 20%;
+    width: 100%;
+  }
+}
